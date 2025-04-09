@@ -1,4 +1,4 @@
-const { add, subtract, multiply, divide } = require('./arithmeticEvents');
+const { add, subtract, multiply, divide } = require('../arithmeticEvents');
 
 test('adds numbers correctly', () => {
     expect(add(10, 5)).toBe(15);
